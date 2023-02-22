@@ -26,7 +26,9 @@ b[2]=b[2]-4
 ev=b
 end
 
+if not alive then return end
 wait((ev[1]/1000)-self.offset)
+if not alive then return end
 
 ev1:Fire(note)
 
